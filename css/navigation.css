@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--text-hightlight);
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 769px) {
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-content:space-around;
+        font-size: 16px;
+    }
+    .header {
+        padding: 0 35%;
+    }
+}
